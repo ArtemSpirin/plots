@@ -3,7 +3,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import csv
 
-content = pd.read_csv("C:/Video_Games.csv")
+content = pd.read_csv("Video_games.csv")
 jp_sales = [content['JP_Sales'][i] for i in range(len(content['JP_Sales']))]
 eu_sales = [content['EU_Sales'][i] for i in range(len(content['EU_Sales']))]
 global_sales = [content['Global_Sales'][i] for i in range(len(content['Global_Sales']))]
